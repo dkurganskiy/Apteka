@@ -96,7 +96,7 @@ def job():
             for item in prep:
                 writer.writerow([date, '', item['title'], name, item['link'], cookie['name'], item['price']])
 
-schedule.every().day.at("00:48").do(job)
+schedule.every().day.at("12:21").do(job)
 
 
 while True:

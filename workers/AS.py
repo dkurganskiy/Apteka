@@ -3225,7 +3225,7 @@ def job():
         print("error zhivika")
 
 
-schedule.every().day.at("00:19").do(job)
+schedule.every().day.at("00:50").do(job)
 
 
 while True:
